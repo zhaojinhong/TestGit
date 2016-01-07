@@ -3,35 +3,35 @@ Global  setup:
 
 set  up  git
 
-git  config  --global  user.name  "your  name"
+   git  config  --global  user.name  "your  name"
 
-git  config  --global  user.email zhaojinhong@gamil.com
+   git  config  --global  user.email zhaojinhong@gamil.com
 
    
    
 Next  steps:
 
-makir  TestGit
+   makir  TestGit
 
-cd   TestGit
+   cd   TestGit
 
-git init
+   git init
 
-touch README
+   touch README
 
-git add README
+   git add README
 
-git commit -m "first commi"
+   git commit -m "first commi"
 
-git remote add origin git@github.com:zhaojinhong/TestGit.git
+   git remote add origin git@github.com:zhaojinhong/TestGit.git
 
-git push -u origin master
+   git push -u origin master
     
 
 Existing Git Repo ？
 
-cd existing_git_repo
+   cd existing_git_repo
 
-git remote add origin git@github.com:zhaojinhong/TestGit.git
+   git remote add origin git@github.com:zhaojinhong/TestGit.git
 
-git push -u origin master
+   git push -u origin master
